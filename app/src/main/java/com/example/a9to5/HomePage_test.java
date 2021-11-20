@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+///test
 
 public class HomePage_test extends AppCompatActivity {
     ///////buttons announcement
