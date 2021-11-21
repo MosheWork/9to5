@@ -2,7 +2,10 @@ package com.example.a9to5;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class Social extends AppCompatActivity {
 
@@ -11,4 +14,5 @@ public class Social extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_social);
     }
+
 }

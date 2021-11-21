@@ -19,12 +19,51 @@ public class HomePage_test extends AppCompatActivity {
     private  ImageView imageheartBtn;
     private  ImageView SocialnetworkBtn;
 
+    //profile set up
+  //  EditText FirstName,secondName,email,workPlace,Phone;
+   // Button SubmitProfileBtn;
+    Button MoveToProfileBtn1;
+   // SharedPreferences spProfile;
+    //String FirstNameStr,secondNameStr,emailStr,workPlaceStr,phoneStr;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page_test);
+
+    //profile set up
+      // FirstName= findViewById((R.id.FirstNameText));
+       // secondName= findViewById((R.id.secondNameText));
+       // email= findViewById((R.id.Emailtext));
+       // workPlace= findViewById((R.id.WorkPlaceText));
+      //  Phone= findViewById((R.id.PhoneText));
+
+       // spProfile=getSharedPreferences("MyProfile",Context.MODE_PRIVATE);
+
+      //  SubmitProfileBtn.setOnClickListener(new View.OnClickListener() {
+           // @Override
+           // public void onClick(View v) {
+              //  FirstNameStr=FirstName.getText().toString();
+              //  secondNameStr=secondName.getText().toString();
+              //  emailStr=email.getText().toString();
+              //  workPlaceStr=workPlace.getText().toString();
+              //  phoneStr=Phone.getText().toString();
+
+               // SharedPreferences.Editor editor=spProfile.edit();
+
+               // editor.putString("firstName",FirstNameStr);
+               // editor.putString("lastName",secondNameStr);
+               // editor.putString("email",emailStr);
+               // editor.putString("workPlace",workPlaceStr);
+               // editor.putString("phone",phoneStr);
+               // editor.commit();
+               // Toast.makeText(HomePage_test.this,"Saved!!", Toast.LENGTH_LONG).show();
+
+           // }
+      //  });
+
 
 
    ///buttons listeners
@@ -37,7 +76,7 @@ public class HomePage_test extends AppCompatActivity {
             }
         });
         //פרופיל
-        ProfileBtn =findViewById(R.id.buttonProfile);
+        ProfileBtn =findViewById(R.id.buttonsighnUp);
         ProfileBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -97,7 +136,7 @@ public class HomePage_test extends AppCompatActivity {
         startActivity(intent);
     }
     private void moveToShowProfilePage(){
-        Intent intent= new Intent(this , ProfilePage.class);
+        Intent intent= new Intent(this , profilePage_1.class);
         startActivity(intent);
     }
     private  void  moveToShowSalary(){
@@ -120,4 +159,5 @@ public class HomePage_test extends AppCompatActivity {
         Intent intent = new Intent(this, Social.class);
         startActivity(intent);
     }
+
 }
