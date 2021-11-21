@@ -9,6 +9,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 ///test
 
+
+//test
+//Moshe write your comments in english like a real programmer !!
+
 public class HomePage_test extends AppCompatActivity {
     ///////buttons announcement
     private ImageView Clockbtn;
