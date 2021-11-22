@@ -15,21 +15,23 @@
     android:textColor="@android:color/white"
     android:textSize="40sp"
     android:layout_marginBottom="70dp"
+
     android:textAlignment="center"/>
 
+
     <EditText
+        android:id="@+id/login_email_et"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="User Email"
         android:layout_margin="10dp"
-        android:paddingStart="10dp"
-        android:inputType="text"
+        android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_email_input"
         android:drawablePadding="10dp"
-        android:textColorHint="@color/grey"
-        android:id="@+id/login_email_et"
-        android:background="@drawable/custom_input"/>
-
+        android:hint="User Email"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/grey" />
 
     <EditText
         android:layout_width="match_parent"
@@ -42,6 +44,7 @@
         android:drawablePadding="10dp"
         android:textColorHint="@color/grey"
         android:id="@+id/login_password_et"
+        android:textColor="@android:color/white"
         android:background="@drawable/custom_input"/>
 
 
@@ -52,6 +55,8 @@
         android:textColor="@color/white"
         android:layout_marginRight="70dp"
         android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
         android:id="@+id/login_checkbox"/>
 
     <Button
@@ -71,7 +76,7 @@
         android:textColor="@android:color/holo_red_dark"
         android:text="Sign Up"
         android:layout_margin="10dp"
-        android:id="@+id/button_login_Signup"
+        android:id="@+id/login_to_signup"
         android:textSize="25sp"/>
 
 <ProgressBar

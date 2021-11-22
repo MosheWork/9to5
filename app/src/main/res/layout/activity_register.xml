@@ -42,12 +42,13 @@
         android:drawableStart="@drawable/custom_pass_input"
         android:drawablePadding="10dp"
         android:textColorHint="@color/grey"
+        android:textColor="@android:color/white"
         android:id="@+id/register_password_et"
         android:background="@drawable/custom_input"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint=" Confim Password"
+        android:hint=" Confirm Password"
         android:layout_margin="10dp"
         android:paddingStart="10dp"
         android:inputType="text"
@@ -88,7 +89,7 @@
         android:textColor="@android:color/holo_red_dark"
         android:text="LogIN"
         android:layout_margin="10dp"
-        android:id="@+id/button_login_Signup"
+        android:id="@+id/signup_to_login"
         android:textSize="25sp"/>
 
     <ProgressBar
