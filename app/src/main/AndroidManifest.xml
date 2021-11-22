@@ -10,16 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.9to5">
         <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".Social_Youtube_Guide"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
             android:name=".profilePage_2"
             android:exported="false" />
         <activity
             android:name=".profilePage_1"
-            android:exported="false" />
-        <activity
-            android:name=".ProfilePage2"
-            android:exported="false" />
-        <activity
-            android:name=".Profilepage2"
             android:exported="false" />
         <activity
             android:name=".Social"
@@ -35,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".SalaryMain"
-            android:exported="false" />
-        <activity
-            android:name=".ProfilePage"
             android:exported="false" />
         <activity
             android:name=".MainSalary"

@@ -136,7 +136,7 @@ public class HomePage_test extends AppCompatActivity {
     //מטודה שמעבירה לדף הנבחר
 
     private void moveToShowClockTimes(){
-        Intent intent= new Intent(this , attendance.class);
+        Intent intent= new Intent(this , RegisterActivity.class);
         startActivity(intent);
     }
     private void moveToShowProfilePage(){
