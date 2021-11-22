@@ -25,7 +25,7 @@ public class profilePage_1 extends AppCompatActivity {
         SubmitBtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(profilePage_1.this,profilePage_2.class);
+                Intent i = new Intent(profilePage_1.this, profilePage_2.class);
                 Profile_name_Str=Profile_Name_text.getText().toString();
                 i.putExtra("Value",Profile_name_Str);
                 startActivity(i);
