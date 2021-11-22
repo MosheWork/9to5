@@ -136,11 +136,11 @@ public class HomePage_test extends AppCompatActivity {
     //מטודה שמעבירה לדף הנבחר
 
     private void moveToShowClockTimes(){
-        Intent intent= new Intent(this , RegisterActivity.class);
+        Intent intent= new Intent(this , attendance.class);
         startActivity(intent);
     }
     private void moveToShowProfilePage(){
-        Intent intent= new Intent(this , profilePage_1.class);
+        Intent intent= new Intent(this , LoginActivity.class);
         startActivity(intent);
     }
     private  void  moveToShowSalary(){
