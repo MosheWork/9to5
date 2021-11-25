@@ -14,9 +14,12 @@
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/drawable/custom_input.xml" value="0.2828125" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/drawable/custom_pass_input.xml" value="0.2828125" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/drawable/email_fucos.xml" value="0.2828125" />
+        <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.2798611111111111" />
+        <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.2798611111111111" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2828125" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2828125" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/drawable/lock_fucos.xml" value="0.2828125" />
+        <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_create_profile.xml" value="0.1" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_health.xml" value="0.13255547054322878" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_home_page_test.xml" value="0.25" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_login.xml" value="0.25" />
@@ -34,8 +37,11 @@
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_salary_main.xml" value="0.25" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_social.xml" value="0.13255547054322878" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_social_youtube_guide.xml" value="0.25" />
+        <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_splashscreen.xml" value="0.12949502677888294" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_test.xml" value="0.1478825136612022" />
+        <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_ty_for_register_profile.xml" value="0.11851092896174864" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/activity_work_schedling.xml" value="0.14207650273224043" />
+        <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/fragment1.xml" value="0.13465952563121653" />
         <entry key="..\:/Users/Moshe/Desktop/final project/9to52/app/src/main/res/layout/profile.xml" value="0.25" />
       </map>
     </option>

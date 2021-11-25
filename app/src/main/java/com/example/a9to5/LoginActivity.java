@@ -104,7 +104,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void sendtoMain() {
-        Intent intent= new Intent(LoginActivity.this,Social_Youtube_Guide.class);
+        Intent intent= new Intent(LoginActivity.this,Splashscreen.class);
         startActivity(intent);
         finish();
 

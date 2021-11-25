@@ -112,7 +112,7 @@ public class RegisterActivity extends AppCompatActivity {
         }
 
     private void sendtoMain() {
-        Intent intent = new Intent(RegisterActivity.this,Social_Youtube_Guide.class);
+        Intent intent = new Intent(RegisterActivity.this,Splashscreen.class);
         startActivity(intent);
         finish();
     }

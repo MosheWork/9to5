@@ -10,9 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.9to5">
         <activity
+            android:name=".HomePage_test"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
+        <activity
             android:name=".RegisterActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:exported="false"
@@ -49,7 +54,8 @@
             android:name=".attendance"
             android:exported="false" />
         <activity
-            android:name=".HomePage_test"
+            android:name=".Splashscreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
