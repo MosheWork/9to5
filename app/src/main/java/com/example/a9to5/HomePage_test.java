@@ -13,7 +13,7 @@ import android.widget.ImageView;
 //test
 //Moshe write your comments in english like a real programmer !!
 
-//lolol
+//lolollolololol
 
 public class HomePage_test extends AppCompatActivity {
     ///////buttons announcement
