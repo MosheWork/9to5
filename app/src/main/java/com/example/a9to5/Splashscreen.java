@@ -20,7 +20,7 @@ public class Splashscreen extends AppCompatActivity {
     TextView nameTv,name2tv;
     MediaPlayer mysong;
 
-    long animTime= 4000;
+    long animTime= 6000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,12 +35,20 @@ public class Splashscreen extends AppCompatActivity {
         name2tv=findViewById(R.id.tv_splash_name2);
 
         ObjectAnimator animatorY= ObjectAnimator.ofFloat(imageView,"y",600f);
-        ObjectAnimator animatorname= ObjectAnimator.ofFloat(imageView,"x",200f);
+       //ObjectAnimator animatorname= ObjectAnimator.ofFloat(imageView,"x",200f);
         animatorY.setDuration(animTime);
-        animatorname.setDuration(animTime);
+       // animatorname.setDuration(animTime);
         AnimatorSet animatorSet= new AnimatorSet();
-        animatorSet.playTogether(animatorY,animatorname);
+        animatorSet.playTogether(animatorY);
         animatorSet.start();
+
+        ObjectAnimator animatorText= ObjectAnimator.ofFloat(nameTv,"x",300f);
+        ObjectAnimator animatorname1= ObjectAnimator.ofFloat(name2tv,"x",400f);
+        animatorText.setDuration(animTime);
+       animatorname1.setDuration(animTime);
+        AnimatorSet animatorSet1= new AnimatorSet();
+        animatorSet1.playTogether(animatorText,animatorname1);
+        animatorSet1.start();
 
         Handler handler= new Handler();
         handler.postDelayed(new Runnable() {
@@ -52,7 +60,7 @@ public class Splashscreen extends AppCompatActivity {
                 finish();
 
             }
-        },4000);
+        },7000);
 
 
 
