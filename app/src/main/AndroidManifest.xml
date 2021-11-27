@@ -10,10 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.9to5">
         <activity
+            android:name=".forght_password"
+            android:exported="false" />
+        <activity
+            android:name=".signup_note"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_note"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
             android:name=".HomePage_test"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".RegisterActivity"
             android:exported="false"
@@ -55,8 +64,8 @@
             android:exported="false" />
         <activity
             android:name=".Splashscreen"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -20,7 +20,7 @@ public class Splashscreen extends AppCompatActivity {
     TextView nameTv,name2tv;
     MediaPlayer mysong;
 
-    long animTime= 6000;
+    long animTime= 3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,13 +54,13 @@ public class Splashscreen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent= new Intent(Splashscreen.this, HomePage_test.class);
+                Intent intent= new Intent(Splashscreen.this, MainActivity_note.class);
                 startActivity(intent);
                 mysong.release();
                 finish();
 
             }
-        },7000);
+        },3000);
 
 
 
