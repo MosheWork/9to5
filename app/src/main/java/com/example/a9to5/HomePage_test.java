@@ -13,6 +13,8 @@ import android.widget.ImageView;
 //test
 //Moshe write your comments in english like a real programmer !!
 
+//lolollolololol
+
 public class HomePage_test extends AppCompatActivity {
     ///////buttons announcement
     private ImageView Clockbtn;
